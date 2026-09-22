@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fotos · lunarquivos</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: #fffafa;
+            color: #5f5559;
+            font-family: Georgia, serif;
+        }
+
+        header {
+            padding: 35px 20px;
+            text-align: center;
+            border-bottom: 1px solid #eadcdf;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #c98fa5;
+            font-size: 30px;
+            font-weight: normal;
+        }
+
+        nav {
+            margin-top: 12px;
+            font-family: Arial, sans-serif;
+            font-size: 13px;
+        }
+
+        nav a {
+            color: #92747e;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 70px auto;
+            padding: 0 25px;
+        }
+
+        h2 {
+            color: #b77f96;
+            font-weight: normal;
+            text-align: center;
+            margin-bottom: 45px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .photo {
+            background: white;
+            padding: 12px;
+            border: 1px solid #eadcdf;
+        }
+
+        .photo img {
+            width: 100%;
+            display: block;
+        }
+
+        .caption {
+            padding: 12px 5px 5px;
+            font-size: 13px;
+            color: #92747e;
+            text-align: center;
+        }
+
+        footer {
+            margin-top: 100px;
+            padding: 30px;
+            text-align: center;
+            border-top: 1px solid #eadcdf;
+            color: #b99da7;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>lunarquivos ♡</h1>
+
+    <nav>
+        <a href="../index.html">início</a>
+        <a href="../arquivos/index.html">arquivos</a>
+        <a href="index.html">fotos</a>
+        <a href="../sobre/index.html">sobre</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <h2>fotos</h2>
+
+    <section class="gallery">
+
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=800&q=80"
+                 alt="Uma fotografia">
+            <div class="caption">uma coisa bonita que encontrei ♡</div>
+        </div>
+
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=80"
+                 alt="Paisagem">
+            <div class="caption">um dia qualquer</div>
+        </div>
+
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+                 alt="Fotografia">
+            <div class="caption">coisinhas que quero guardar</div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    feito por Luna ♡
+</footer>
+
+</body>
+
+</html>
