@@ -117,3 +117,27 @@ footer {
     gap: 20px;
     text-align: left;
 }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.photo {
+    background: white;
+    padding: 12px;
+    border: 1px solid #eadcdf;
+}
+
+.photo img {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    padding: 12px 5px 5px;
+    font-size: 13px;
+    color: #92747e;
+    text-align: center;
+}
