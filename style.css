@@ -141,3 +141,23 @@ footer {
     color: #92747e;
     text-align: center;
 }
+.about {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    background: white;
+    border: 1px solid #eadcdf;
+    font-family: Arial, sans-serif;
+    line-height: 1.9;
+}
+
+.about p {
+    line-height: 1.9;
+}
+
+.heart {
+    margin-top: 25px;
+    color: #d7a5b6;
+    font-size: 22px;
+    text-align: center;
+}
