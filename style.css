@@ -195,3 +195,41 @@ nav a.active::after {
     color: inherit;
     text-decoration: none;
 }
+/* Página de um arquivo individual */
+.entry-date {
+    text-align: center;
+    color: #b99da7;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+.entry-title {
+    text-align: center;
+    color: #765f67;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 15px 0 45px;
+}
+
+.entry-content {
+    background: white;
+    border: 1px solid #eadcdf;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+.entry-content p {
+    margin-bottom: 25px;
+}
+
+.back {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.back a {
+    color: #b77f96;
+    text-decoration: none;
+}
