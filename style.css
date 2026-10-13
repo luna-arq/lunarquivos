@@ -176,3 +176,17 @@ nav a.active::after {
     font-size: 12px;
     text-align: center;
 }
+.archive-intro {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #92747e;
+    margin-bottom: 50px;
+}
+
+.read-more {
+    color: #b77f96;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
