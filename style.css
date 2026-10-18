@@ -129,6 +129,8 @@ footer {
     background: white;
     padding: 12px;
     border: 1px solid #eadcdf;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .photo img {
